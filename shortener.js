@@ -12,5 +12,5 @@ function generateShortURL(longUrl) {
         hash = (hash << 5) - hash + longUrl.charCodeAt(i);
         hash |= 0; // Convert to 32bit integer
     }
-    return "https://yourdomain.com/" + hash; // Replace yourdomain.com with your actual domain
+    return "https://reusoftware.github.io/A3RSHORTLINK.io/" + hash; // Replace yourdomain.com with your actual domain
 }
